@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="2" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.5%2Bbuild.5&amp;loader=0.11.2">fabric</Import>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/20/fabric-api-0.32.0+1.16.jar</URL>
@@ -46,7 +46,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Origins" id="origins" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.6.0.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.5.2.jar</URL>
 			<Size>1465072</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -62,19 +62,5 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
 		</Module>
-		<!--<Module name="realms_persistence" id="realms_persistence" depends="" side="BOTH">
-			<URL priority="0">modpack.marcinator.net/realms_persistence.json</URL>
-			<Size>122</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>ea27b0437a5dbc4c2a110f50eb8b0244</MD5>
-		</Module>
-		<Module name="servers" id="servers" depends="" side="BOTH">
-			<URL priority="0">modpack.marcinator.net/servers.dat_old</URL>
-			<Size>176</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>bbde736051442051885f443c27611b45</MD5>
-		</Module>-->
 	</Server>
 </ServerPack>
