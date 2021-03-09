@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+	<Server id="" abstract="false" name="FastPack Instance" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.5%2Bbuild.5&amp;loader=0.11.2">fabric</Import>
-		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
+		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/20/fabric-api-0.32.0+1.16.jar</URL>
 			<Size>917554</Size>
 			<Required>true</Required>
@@ -19,25 +19,31 @@
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
 		</Module>
-		<Module name="icon" id="icon" depends="" side="BOTH">
+		<Module name="icon" id="icon" depends="fabric-api" side="BOTH">
 			<URL priority="0">modpack.marcinator.net/icon.png</URL>
 			<Size>15135</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="Better end" id="BetterEnd" depends="" side="BOTH">
+		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
 			<Size>66710000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="BetterNether" id="BetterNether" depends="" side="BOTH">
+		<Module name="BetterNether" id="BetterNether" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3180/179/better-nether-5.0.7.jar</URL>
 			<Size>21260000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="optifabric-1.9.6" id="optifabric" depends="" side="CLIENT">
+		<Module name="Hwyla" id="Hwyla" depends="fabric-api" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3033/613/Hwyla-fabric-1.16.2-1.9.23-79.jar</URL>
+			<Size>261500</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		<Module name="optifabric-1.9.6" id="optifabric" depends="fabric-api" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/3223/497/optifabric-1.9.6.jar</URL>
 			<Size>327499</Size>
 			<Required>true</Required>
@@ -57,7 +63,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<authors>sp614x</authors>
 			</Meta>
 		</Module>
-		<Module name="Origins" id="origins" depends="" side="BOTH">
+		<Module name="Origins" id="origins" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.6.0.jar</URL>
 			<Size>1465072</Size>
 			<Required>true</Required>
