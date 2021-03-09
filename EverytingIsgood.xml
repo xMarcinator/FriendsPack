@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater/?yarn=latest&amp;loader=0.7.1">fabric</Import>
+		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3232020/file</URL>
+			<Size>917554</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>56ffae6b64f805f095d9220e190f6aeb</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Core API module providing key hooks and intercompatibility features.</description>
+				<version>0.31.0+1.16</version>
+				<authors>FabricMC</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">modpack.marcinator.net/config/fabric/indigo-renderer.properties</URL>
+				<Path>config/fabric/indigo-renderer.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d69deb6d28c27cbda1afc6413da11f4b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="icon" id="icon" depends="" side="BOTH">
+			<URL priority="0">modpack.marcinator.net/icon.png</URL>
+			<Size>15135</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>12e1e5666f1921a5f933d21dcbebc730</MD5>
+		</Module>
+		<Module name="intermediary-minecraft-1.16.5-client" id="intermediaryminecraft" depends="" side="BOTH">
+			<URL priority="0">modpack.marcinator.net/.fabric/remappedJars/minecraft-1.16.5/intermediary-minecraft-1.16.5-client.jar</URL>
+			<Size>10675945</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f214321128386128a245b401bc32ee34</MD5>
+		</Module>
+		<Module name="optifabric-1.9.6" id="optifabric" depends="" side="CLIENT">
+			<URL priority="0">modpack.marcinator.net/mods/optifabric-1.9.6.jar</URL>
+			<Size>327499</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f30efd398206217a5a2cd13d17995a0f</MD5>
+		</Module>
+		<Module name="OptiFine" id="optifine" depends="optifabric" side="CLIENT">
+			<URL priority="0">modpack.marcinator.net/mods/OptiFine_1.16.5_HD_U_G7.jar</URL>
+			<Size>5924305</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9d323219bdebf4e22a1d90f99f839cc0</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>OptiFine is a Minecraft optimization mod.
+It allows Minecraft to run faster and look better with full support for shaders, HD textures and many configuration options.
+</description>
+				<version>1.0.0</version>
+				<authors>sp614x</authors>
+			</Meta>
+		</Module>
+		<Module name="optionsof" id="optionsof" depends="" side="BOTH">
+			<URL priority="0">modpack.marcinator.net/optionsof.txt</URL>
+			<Size>1418</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b873c7b594863dbc95b24995f25c4844</MD5>
+		</Module>
+		<Module name="Origins" id="origins" depends="" side="BOTH">
+			<URL priority="0">modpack.marcinator.net/mods/Origins-1.16.5-0.5.2.jar</URL>
+			<Size>1465072</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2cad3bb61c405233b9ec4e6a9137de77</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>This mod adds several origins with passive abilities to the game, which you can choose from at the beginning of the game.</description>
+				<version>0.5.2</version>
+				<authors>Apace</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">modpack.marcinator.net/config/origins.toml</URL>
+				<Path>config/origins.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e544225114999e18e8237b850c39074a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="realms_persistence" id="realms_persistence" depends="" side="BOTH">
+			<URL priority="0">modpack.marcinator.net/realms_persistence.json</URL>
+			<Size>122</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ea27b0437a5dbc4c2a110f50eb8b0244</MD5>
+		</Module>
+		<Module name="servers" id="servers" depends="" side="BOTH">
+			<URL priority="0">modpack.marcinator.net/servers.dat_old</URL>
+			<Size>176</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bbde736051442051885f443c27611b45</MD5>
+		</Module>
+	</Server>
+</ServerPack>
