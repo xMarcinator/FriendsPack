@@ -3,11 +3,10 @@
 	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.5%2Bbuild.5&amp;loader=0.11.2">fabric</Import>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3232020/file</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3232/20/fabric-api-0.32.0+1.16.jar</URL>
 			<Size>917554</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>56ffae6b64f805f095d9220e190f6aeb</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
@@ -18,7 +17,6 @@
 				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/config/fabric/indigo-renderer.properties</URL>
 				<Path>config/fabric/indigo-renderer.properties</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d69deb6d28c27cbda1afc6413da11f4b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="icon" id="icon" depends="" side="BOTH">
@@ -26,28 +24,18 @@
 			<Size>15135</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>12e1e5666f1921a5f933d21dcbebc730</MD5>
 		</Module>
-		<!--<Module name="intermediary-minecraft-1.16.5-client" id="intermediaryminecraft" depends="" side="BOTH">
-			<URL priority="0">modpack.marcinator.net/.fabric/remappedJars/minecraft-1.16.5/intermediary-minecraft-1.16.5-client.jar</URL>
-			<Size>10675945</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>f214321128386128a245b401bc32ee34</MD5>
-		</Module>-->
 		<Module name="optifabric-1.9.6" id="optifabric" depends="" side="CLIENT">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/optifabric/download/3223497/file</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3223/497/optifabric-1.9.6.jar</URL>
 			<Size>327499</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f30efd398206217a5a2cd13d17995a0f</MD5>
 		</Module>
 		<Module name="OptiFine" id="optifine" depends="optifabric" side="CLIENT">
 			<URL priority="0">https://optifine.net/downloadx?f=OptiFine_1.16.5_HD_U_G7.jar&amp;x=29886310f3a2d88579026cbada54d1c2</URL>
 			<Size>5924305</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9d323219bdebf4e22a1d90f99f839cc0</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>OptiFine is a Minecraft optimization mod.
@@ -58,11 +46,10 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Origins" id="origins" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/origins/download/3232079/file</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.6.0.jar</URL>
 			<Size>1465072</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2cad3bb61c405233b9ec4e6a9137de77</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>This mod adds several origins with passive abilities to the game, which you can choose from at the beginning of the game.</description>
@@ -73,7 +60,6 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/config/origins.toml</URL>
 				<Path>config/origins.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e544225114999e18e8237b850c39074a</MD5>
 			</ConfigFile>
 		</Module>
 		<!--<Module name="realms_persistence" id="realms_persistence" depends="" side="BOTH">
