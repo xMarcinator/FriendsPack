@@ -37,7 +37,7 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="Hwyla" id="Hwyla" depends="fabric-api" side="BOTH">
+		<Module name="Hwyla" id="Hwyla" depends="fabric-api" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/3033/613/Hwyla-fabric-1.16.2-1.9.23-79.jar</URL>
 			<Size>261500</Size>
 			<Required>true</Required>
