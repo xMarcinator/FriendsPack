@@ -3,7 +3,7 @@
 	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater/?yarn=latest&amp;loader=0.7.1">fabric</Import>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/fabric-api/download/3232020/file</URL>
+			<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.5%2Bbuild.5&amp;loader=0.11.2">fabric</Import>
 			<Size>917554</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
