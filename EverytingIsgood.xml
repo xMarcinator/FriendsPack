@@ -25,9 +25,15 @@
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="optifabric-1.9.6" id="optifabric" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3223/497/optifabric-1.9.6.jar</URL>
-			<Size>327499</Size>
+		<Module name="Better end" id="BetterEnd" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
+			<Size>66710000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		<Module name="BetterNether" id="BetterNether" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3180/179/better-nether-5.0.7.jar</URL>
+			<Size>21260000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
