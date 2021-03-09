@@ -46,7 +46,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Origins" id="origins" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.5.2.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3222/828/Origins-1.16.5-0.5.2.jar</URL>
 			<Size>1465072</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
