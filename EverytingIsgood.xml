@@ -25,7 +25,7 @@
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="Better end" id="BetterEnd" depends="" side="CLIENT">
+		<Module name="Better end" id="BetterEnd" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
 			<Size>66710000</Size>
 			<Required>true</Required>
