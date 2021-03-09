@@ -43,7 +43,7 @@
 			<MD5>f30efd398206217a5a2cd13d17995a0f</MD5>
 		</Module>
 		<Module name="OptiFine" id="optifine" depends="optifabric" side="CLIENT">
-			<URL priority="0">https://optifine.net/downloadx?f=OptiFine_1.16.5_HD_U_G7.jar&x=29886310f3a2d88579026cbada54d1c2</URL>
+			<URL priority="0">https://optifine.net/downloadx?f=OptiFine_1.16.5_HD_U_G7.jar&amp;x=29886310f3a2d88579026cbada54d1c2</URL>
 			<Size>5924305</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
