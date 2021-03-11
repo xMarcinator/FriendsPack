@@ -14,14 +14,13 @@
 				<authors>FabricMC</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/config/fabric/indigo-renderer.properties</URL>
+				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/Origins/config/fabric/indigo-renderer.properties</URL>
 				<Path>config/fabric/indigo-renderer.properties</Path>
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
 		</Module>
-		<Module name="icon" id="icon" depends="fabric-api" side="BOTH">
-			<URL priority="0">modpack.marcinator.net/icon.png</URL>
-			<Size>15135</Size>
+		<Module name="Carpet Mod" id="Carpet" depends="fabric-api" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3235/88/fabric-carpet-21w10a-1.4.29+v210310.jar</URL>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
@@ -75,7 +74,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<authors>Apace</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/config/origins.toml</URL>
+				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/Origins/config/origins.toml</URL>
 				<Path>config/origins.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
