@@ -25,12 +25,12 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
+		<!--<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
 			<Size>66710000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-		</Module>
+		</Module>-->
 		<Module name="Better Nether" id="BetterNether" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3180/179/better-nether-5.0.7.jar</URL>
 			<Size>21260000</Size>
@@ -79,11 +79,9 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Module>	
 		
 		<Module name="Origins" id="origins" depends="fabric-api" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.6.0.jar</URL>
-			<Size>1750000</Size>
-			<!--<URL priority="0">https://edge.forgecdn.net/files/3233/444/Origins-1.16.5-0.6.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3233/444/Origins-1.16.5-0.6.1.jar</URL>
 			<MD5>883f92c2ddbece50f98616ca37e31e4d<MD5/>
-			<Size>1750000</Size>-->
+			<Size>1750000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<Meta>
@@ -97,12 +95,12 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<Path>config/origins.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
-			<!--<Submodule name="Daemonic (Extra origins)" id="Daemonic" depends="fabric-api" side="BOTH">
+			<Submodule name="Daemonic (Extra origins)" id="Daemonic" depends="fabric-api" side="BOTH">
 				<URL priority="0">https://edge.forgecdn.net/files/3224/992/daemonic-1.1.1.jar</URL>
 				<MD5>8b6387fd2029e22f47306a329ae479d0</MD5>
 				<Size>46370</Size>
 				<ModType>Regular</ModType>			
-			</Submodule>-->	
+			</Submodule>
 		</Module>
 	</Server>
 </ServerPack>
