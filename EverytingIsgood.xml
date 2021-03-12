@@ -97,6 +97,12 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<Path>config/origins.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
+			<!--<Submodule name="Daemonic (Extra origins)" id="Daemonic" depends="fabric-api" side="BOTH">
+				<URL priority="0">https://edge.forgecdn.net/files/3224/992/daemonic-1.1.1.jar</URL>
+				<MD5>8b6387fd2029e22f47306a329ae479d0</MD5>
+				<Size>46370</Size>
+				<ModType>Regular</ModType>			
+			</Submodule>-->	
 		</Module>
 	</Server>
 </ServerPack>
