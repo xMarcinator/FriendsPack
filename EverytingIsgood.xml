@@ -19,11 +19,11 @@
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
 		</Module>
-		<!--<Module name="Carpet Mod" id="Carpet" depends="fabric-api" side="SERVER">
+		<Module name="Carpet Mod" id="Carpet" depends="fabric-api" side="SERVER">
 			<URL priority="0">https://edge.forgecdn.net/files/3235/87/fabric-carpet-1.16.5-1.4.29+v210310.jar</URL>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-		</Module>-->
+		</Module>
 		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
 			<Size>66710000</Size>
