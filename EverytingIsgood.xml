@@ -80,7 +80,6 @@ It allows Minecraft to run faster and look better with full support for shaders,
 		
 		<Module name="Origins" id="origins" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3233/444/Origins-1.16.5-0.6.1.jar</URL>
-			<MD5>883f92c2ddbece50f98616ca37e31e4d<MD5/>
 			<Size>1750000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -97,7 +96,6 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</ConfigFile>
 			<Submodule name="Daemonic (Extra origins)" id="Daemonic" depends="fabric-api" side="BOTH">
 				<URL priority="0">https://edge.forgecdn.net/files/3224/992/daemonic-1.1.1.jar</URL>
-				<MD5>8b6387fd2029e22f47306a329ae479d0</MD5>
 				<Size>46370</Size>
 				<ModType>Regular</ModType>			
 			</Submodule>
