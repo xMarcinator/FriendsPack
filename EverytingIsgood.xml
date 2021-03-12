@@ -25,7 +25,7 @@
 			<URL priority="0">https://edge.forgecdn.net/files/3235/87/fabric-carpet-1.16.5-1.4.29+v210310.jar</URL>
 			<MD5>ea31fc047b127e001ea8999479d984c9</MD5>
 			<Size>1170000</Size>
-			<Required>false</Required>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
 		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
@@ -53,7 +53,7 @@
 			<URL priority="0">https://edge.forgecdn.net/files/3218/65/RoughlyEnoughItems-5.10.184.jar</URL>
 			<MD5>41f21a9679b59be981d175fca6ab3683</MD5>
 			<Size>1080000</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>			
 		</Module>
 		<!--<Module name="Mouse Wheelie" id="MouseWheelie" depends="fabric-api" side="BOTH">
