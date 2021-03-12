@@ -25,12 +25,12 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<!--<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
+		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
 			<Size>66710000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-		</Module>-->
+		</Module>
 		<Module name="Better Nether" id="BetterNether" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3180/179/better-nether-5.0.7.jar</URL>
 			<Size>21260000</Size>
