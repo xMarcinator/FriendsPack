@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="" abstract="false" name="Søvand" newsUrl="about:blank" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+	<Server id="Soevand" abstract="false" name="Søvand" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="true" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.5%2Bbuild.5&amp;loader=0.11.2">fabric</Import>
 		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/20/fabric-api-0.32.0+1.16.jar</URL>
-			<Size>917554</Size>
+			<MD5>9ec76e1c8d444d6086920dafc46d11d1<MD5/>
+			<Size>914830</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<Meta>
@@ -21,29 +22,42 @@
 		</Module>
 		<Module name="Carpet Mod" id="Carpet" depends="fabric-api" side="SERVER">
 			<URL priority="0">https://edge.forgecdn.net/files/3235/87/fabric-carpet-1.16.5-1.4.29+v210310.jar</URL>
+			<MD5>ea31fc047b127e001ea8999479d984c9<MD5/>
+			<Size>1170000</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
 		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
+			<MD5>72046a67875fc5747346effd9015adfb<MD5/>
 			<Size>66710000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="BetterNether" id="BetterNether" depends="fabric-api" side="BOTH">
+		<Module name="Better Nether" id="BetterNether" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3180/179/better-nether-5.0.7.jar</URL>
+			<MD5>70f120289a31901b55f2381e0df44c90<MD5/>
 			<Size>21260000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
 		<Module name="Hwyla" id="Hwyla" depends="fabric-api" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/3033/613/Hwyla-fabric-1.16.2-1.9.23-79.jar</URL>
+			<MD5>72046a67875fc5747346effd9015adfb<MD5/>
 			<Size>261500</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
+		<Module name="Roughly Enough Items" id="REI" depends="fabric-api" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3218/65/RoughlyEnoughItems-5.10.184.jar</URL>
+			<MD5>41f21a9679b59be981d175fca6ab3683<MD5/>
+			<Size>1080000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>			
+		</Module>		
 		<Module name="OptiFine" id="optifine" depends="" side="CLIENT">
 			<URL priority="0">https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G7.jar</URL>
+			<MD5>9d323219bdebf4e22a1d90f99f839cc0<MD5/>
 			<Size>5924305</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -55,16 +69,21 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<version>1.0.0</version>
 				<authors>sp614x</authors>
 			</Meta>
-			<Submodule name="optifabric-1.9.6" id="optifabric" depends="fabric-api" side="CLIENT">
+			<Submodule name="optifabric" id="optifabric" depends="fabric-api" side="CLIENT">
 				<URL priority="0">https://edge.forgecdn.net/files/3223/497/optifabric-1.9.6.jar</URL>
-				<Size>327499</Size>
+				<MD5>f30efd398206217a5a2cd13d17995a0f<MD5/>
+				<Size>319820</Size>				
 				<Required>true</Required>
 				<ModType>Regular</ModType>
 			</Submodule>
 		</Module>
 		<Module name="Origins" id="origins" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.6.0.jar</URL>
-			<Size>1465072</Size>
+			<MD5>cea56c02ecb1b66854b7e348520cda01<MD5/>
+			<Size>1750000</Size>
+			<!--<URL priority="0">https://edge.forgecdn.net/files/3233/444/Origins-1.16.5-0.6.1.jar</URL>
+			<MD5>883f92c2ddbece50f98616ca37e31e4d<MD5/>
+			<Size>1750000</Size>-->
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<Meta>
