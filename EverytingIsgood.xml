@@ -43,8 +43,8 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<Module name="Roughly Enough Items" id="REI" depends="fabric-api" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3218/65/RoughlyEnoughItems-5.10.184.jar</URL>
+		<Module name="Roughly Enough Items" id="REI" depends="fabric-api" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3218/65/RoughlyEnoughItems-5.10.184.jar</URL><
 			<Size>1080000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>			
