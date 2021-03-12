@@ -43,13 +43,13 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<!--<Module name="Roughly Enough Items" id="REI" depends="fabric-api" side="CLIENT">
+		<Module name="Roughly Enough Items" id="REI" depends="fabric-api" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/3218/65/RoughlyEnoughItems-5.10.184.jar</URL>
 			<MD5>41f21a9679b59be981d175fca6ab3683</MD5>
 			<Size>1080000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>			
-		</Module>-->
+		</Module>
 		<!--<Module name="Mouse Wheelie" id="MouseWheelie" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3197/990/mousewheelie-1.6.4+mc1.16.4.jar</URL>
 			<MD5>9a37deb9952c3dc8849ad3aa65e47634</MD5>
