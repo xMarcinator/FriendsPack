@@ -62,29 +62,30 @@
 			<Size>988900</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-		</Module>-->		
-		<Module name="OptiFine" id="optifine" depends="" side="CLIENT">
-			<URL priority="0">https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G7.jar</URL>
-			<MD5>9d323219bdebf4e22a1d90f99f839cc0</MD5>
-			<Size>5924305</Size>
+		</Module>-->
+		<Module name="optifabric" id="optifabric" depends="fabric-api" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3223/497/optifabric-1.9.6.jar</URL>
+			<MD5>f30efd398206217a5a2cd13d17995a0f</MD5>
+			<Size>319820</Size>				
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<Meta>
-				<license>All rights reserved</license>
-				<description>OptiFine is a Minecraft optimization mod.
-It allows Minecraft to run faster and look better with full support for shaders, HD textures and many configuration options.
-</description>
-				<version>1.0.0</version>
-				<authors>sp614x</authors>
-			</Meta>
-			<Submodule name="optifabric" id="optifabric" depends="fabric-api" side="CLIENT">
-				<URL priority="0">https://edge.forgecdn.net/files/3223/497/optifabric-1.9.6.jar</URL>
-				<MD5>f30efd398206217a5a2cd13d17995a0f</MD5>
-				<Size>319820</Size>				
+			<Submodule name="OptiFine" id="optifine" depends="" side="CLIENT">
+				<URL priority="0">https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G7.jar</URL>
+				<MD5>9d323219bdebf4e22a1d90f99f839cc0</MD5>
+				<Size>5924305</Size>
 				<Required>true</Required>
 				<ModType>Regular</ModType>
+				<Meta>
+					<license>All rights reserved</license>
+					<description>OptiFine is a Minecraft optimization mod.
+It allows Minecraft to run faster and look better with full support for shaders, HD textures and many configuration options.
+</description>
+					<version>1.0.0</version>
+					<authors>sp614x</authors>
+				</Meta>
 			</Submodule>
-		</Module>
+		</Module>		
+		
 		<Module name="Origins" id="origins" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/79/Origins-1.16.5-0.6.0.jar</URL>
 			<MD5>cea56c02ecb1b66854b7e348520cda01</MD5>
