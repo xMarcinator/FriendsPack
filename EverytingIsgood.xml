@@ -100,7 +100,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Submodule>
 			<Submodule name="Zip for origin" id="Datapacks" depends="" side="SERVER">
 				<URL priority="0">https://github.com//xXMarcinatorXx/FriendsPack/raw/main/Origins/config/Datapacks.zip</URL>
-				<ModType inRoot=’true’ >Extract</ModType>			
+				<ModType inRoot="true">Extract</ModType>			
 			</Submodule>
 		</Module>
 	</Server>
