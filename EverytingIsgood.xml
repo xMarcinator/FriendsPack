@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Soevand" abstract="false" name="Søvand" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="true" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+	<Server id="Soevand" abstract="false" name="Søvand" serverAddress="play.bygdinhosting.dk:25567"  version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.5%2Bbuild.5&amp;loader=0.11.2">fabric</Import>
 		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/20/fabric-api-0.32.0+1.16.jar</URL>
