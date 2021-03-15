@@ -98,10 +98,10 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<Size>46370</Size>
 				<ModType>Regular</ModType>			
 			</Submodule>
-			<!--<Submodule name="Zip for origin" id="Datapacks" depends="" side="SERVER">
+			<Submodule name="Zip for origin" id="Datapacks" depends="" side="SERVER">
 				<URL priority="0">https://github.com//xXMarcinatorXx/FriendsPack/raw/main/Origins/config/Datapacks.zip</URL>
 				<ModType inRoot="true">Extract</ModType>			
-			</Submodule>-->
+			</Submodule>
 		</Module>
 	</Server>
 </ServerPack>
