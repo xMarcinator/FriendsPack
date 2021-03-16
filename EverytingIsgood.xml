@@ -5,6 +5,7 @@
 		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3232/20/fabric-api-0.32.0+1.16.jar</URL>
 			<Size>914830</Size>
+			<MD5>9ec76e1c8d444d6086920dafc46d11d1</MD5>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<Meta>
@@ -16,35 +17,41 @@
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/Origins/config/fabric/indigo-renderer.properties</URL>
 				<Path>config/fabric/indigo-renderer.properties</Path>
+				<MD5>d9fe20e48b3f818fb221871f50617076</MD5>
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
 		</Module>
 		<Module name="Carpet Mod" id="Carpet" depends="fabric-api" side="SERVER">
 			<URL priority="0">https://edge.forgecdn.net/files/3235/87/fabric-carpet-1.16.5-1.4.29+v210310.jar</URL>
 			<Size>1170000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-		</Module>
-		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
-			<Size>66710000</Size>
+			<MD5>ead926979287f31ca72d78f0fc4d5ad5</MD5>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
 		<Module name="Better Nether" id="BetterNether" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3180/179/better-nether-5.0.7.jar</URL>
+			<MD5>70f120289a31901b55f2381e0df44c90</MD5>
 			<Size>21260000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		<Module name="Better end" id="BetterEnd" depends="fabric-api" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3203/464/better-end-0.9.1-pre.jar</URL>
+			<MD5>2ef48a00bfdc76c6f62fb11e69a2b14f</MD5>
+			<Size>66710000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
 		<Module name="Hwyla" id="Hwyla" depends="fabric-api" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/3033/613/Hwyla-fabric-1.16.2-1.9.23-79.jar</URL>
+			<MD5>72046a67875fc5747346effd9015adfb</MD5>
 			<Size>261500</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
 		<Module name="Roughly Enough Items" id="REI" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3218/65/RoughlyEnoughItems-5.10.184.jar</URL>
+			<MD5>41f21a9679b59be981d175fca6ab3683</MD5>
 			<Size>1080000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>			
@@ -58,12 +65,14 @@
 		</Module>
 		<Module name="optifabric" id="optifabric" depends="fabric-api" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/3223/497/optifabric-1.9.6.jar</URL>
+			<MD5>f30efd398206217a5a2cd13d17995a0f</MD5>
 			<Size>319820</Size>				
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>	
 		<Module name="OptiFine" id="optifine" depends="optifabric" side="CLIENT">
 			<URL priority="0">https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G7.jar</URL>
+			<MD5>8038dc3aefb98dffeaec72074f4f9556</MD5>
 			<Size>5924305</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -79,6 +88,11 @@ It allows Minecraft to run faster and look better with full support for shaders,
 		
 		<Module name="Origins" id="origins" depends="fabric-api" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3233/444/Origins-1.16.5-0.6.1.jar</URL>
+			<MD5>883f92c2ddbece50f98616ca37e31e4d</MD5>
+			<!--
+			<URL priority="0">https://edge.forgecdn.net/files/3240/251/Origins-1.16.5-0.6.2.jar</URL>
+			<MD5>8fc9e099069c8cb7ae1f30094ba772a5</MD5>
+			-->
 			<Size>1750000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -91,15 +105,19 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/xXMarcinatorXx/FriendsPack/main/Origins/config/origins.toml</URL>
 				<Path>config/origins.toml</Path>
+				<MD5>629cc37969de04b2d9400282ef34846e</MD5>
 				<NoOverwrite>false</NoOverwrite>
 			</ConfigFile>
 			<Submodule name="Daemonic (Extra origins)" id="Daemonic" depends="fabric-api" side="BOTH">
 				<URL priority="0">https://edge.forgecdn.net/files/3224/992/daemonic-1.1.1.jar</URL>
+				<MD5>8b6387fd2029e22f47306a329ae479d0</MD5>
 				<Size>46370</Size>
 				<ModType>Regular</ModType>			
 			</Submodule>
 			<Submodule name="Zip for origin" id="Datapacks" depends="" side="SERVER">
 				<URL priority="0">https://github.com//xXMarcinatorXx/FriendsPack/raw/main/Origins/config/Datapacks.zip</URL>
+				<MD5>8b6387fd2029e22f47306a329ae479d0</MD5>
+				<Size>365144</Size>
 				<ModType inRoot="true">Extract</ModType>			
 			</Submodule>
 		</Module>
