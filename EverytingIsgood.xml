@@ -118,7 +118,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<URL priority="0">https://github.com//xXMarcinatorXx/FriendsPack/raw/main/Origins/config/Datapacks.zip</URL>
 				<MD5>8b6387fd2029e22f47306a329ae479d0</MD5>
 				<Size>365144</Size>
-				<ModType inRoot="true">Extract</ModType>			
+				<ModType inRoot="true">Extract</ModType>
 			</Submodule>
 		</Module>
 	</Server>
